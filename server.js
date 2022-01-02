@@ -32,8 +32,8 @@ const server = http.createServer((req, res)=>{
     })
 })
 
-server.listen(1111, "localhost", ()=>{
-    console.log("listening on 1111")
+server.listen(8080, "localhost", ()=>{
+    console.log("listening on 8080")
 })
 
 
